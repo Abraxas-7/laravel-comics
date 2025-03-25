@@ -8,34 +8,54 @@
         <div>
             <ul class="d-flex list-unstyled py-3">
                 <li class="px-3">
-                    <a href="{{ route('characters') }}" class="{{ Request::routeIs('characters') ? 'active' : '' }}">CHARACTERS</a>
+                    <a href="{{ route('characters') }}" class="{{ Request::routeIs('characters') ? 'active' : '' }}">
+                        CHARACTERS
+                    </a>
                 </li>
                 <li class="px-3">
-                    <a href="{{ route('home') }}" class="{{ Request::routeIs('home') ? 'active' : '' }}">COMICS</a>
+                    <a href="{{ route('home') }}" class="{{ Request::routeIs('home') ? 'active' : '' }}">
+                        COMICS
+                    </a>
                 </li>
                 <li class="px-3">
-                    <a href="{{ route('movies') }}" class="{{ Request::routeIs('movies') ? 'active' : '' }}">MOVIES</a>
+                    <a href="{{ route('movies') }}" class="{{ Request::routeIs('movies') ? 'active' : '' }}">
+                        MOVIES
+                    </a>
                 </li>
                 <li class="px-3">
-                    <a href="{{ route('tv') }}" class="{{ Request::routeIs('tv') ? 'active' : '' }}">TV</a>
+                    <a href="{{ route('tv') }}" class="{{ Request::routeIs('tv') ? 'active' : '' }}">
+                        TV
+                    </a>
                 </li>
                 <li class="px-3">
-                    <a href="{{ route('games') }}" class="{{ Request::routeIs('games') ? 'active' : '' }}">GAMES</a>
+                    <a href="{{ route('games') }}" class="{{ Request::routeIs('games') ? 'active' : '' }}">
+                        GAMES
+                    </a>
                 </li>
                 <li class="px-3">
-                    <a href="{{ route('collectibles') }}" class="{{ Request::routeIs('collectibles') ? 'active' : '' }}">COLLECTIBLES</a>
+                    <a href="{{ route('collectibles') }}" class="{{ Request::routeIs('collectibles') ? 'active' : '' }}">
+                        COLLECTIBLES
+                    </a>
                 </li>
                 <li class="px-3">
-                    <a href="{{ route('videos') }}" class="{{ Request::routeIs('videos') ? 'active' : '' }}">VIDEOS</a>
+                    <a href="{{ route('videos') }}" class="{{ Request::routeIs('videos') ? 'active' : '' }}">
+                        VIDEOS
+                    </a>
                 </li>
                 <li class="px-3">
-                    <a href="{{ route('fans') }}" class="{{ Request::routeIs('fans') ? 'active' : '' }}">FANS</a>
+                    <a href="{{ route('fans') }}" class="{{ Request::routeIs('fans') ? 'active' : '' }}">
+                        FANS
+                    </a>
                 </li>
                 <li class="px-3">
-                    <a href="{{ route('news') }}" class="{{ Request::routeIs('news') ? 'active' : '' }}">NEWS</a>
+                    <a href="{{ route('news') }}" class="{{ Request::routeIs('news') ? 'active' : '' }}">
+                        NEWS
+                    </a>
                 </li>
                 <li class="px-3">
-                    <a href="{{ route('shop') }}" class="{{ Request::routeIs('shop') ? 'active' : '' }}">SHOP</a>
+                    <a href="{{ route('shop') }}" class="{{ Request::routeIs('shop') ? 'active' : '' }}">
+                        SHOP
+                    </a>
                 </li>
             </ul>
         </div>
