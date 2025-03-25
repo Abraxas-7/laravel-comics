@@ -1,9 +1,9 @@
 @extends("layouts.master")
 
 @section("title")
-    Comics
+    Characters
 @endsection
 
 @section("contenuto")
-    Comics
+    Characters
 @endsection
