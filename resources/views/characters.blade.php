@@ -1,9 +1,9 @@
-@extends("layouts.master")
+@extends('layouts.master')
 
-@section("title")
+@section('title')
     Characters
 @endsection
 
-@section("contenuto")
+@section('contenuto')
     Characters
 @endsection

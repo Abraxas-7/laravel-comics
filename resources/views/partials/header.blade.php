@@ -2,7 +2,8 @@
     <nav class="container d-flex justify-content-between align-items-center">
 
         <div class="py-3">
-            <a href={{ route("home") }}><img src="{{ Vite::asset("resources/img/dc-logo.png") }}" alt="Logo DC" class="header-logo py-2"></a>
+            <a href={{ route('home') }}><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo DC"
+                    class="header-logo py-2"></a>
         </div>
 
         <div>
@@ -33,10 +34,10 @@
                     </a>
                 </li>
                 <li class="px-3">
-                    <a href="{{ route('collectibles') }}" class="{{ Request::routeIs('collectibles') ? 'active' : '' }}">
+                    <a href="{{ route('collectibles') }}"
+                        class="{{ Request::routeIs('collectibles') ? 'active' : '' }}">
                         COLLECTIBLES
-                    </a>
-                </li>
+                    </a </li>
                 <li class="px-3">
                     <a href="{{ route('videos') }}" class="{{ Request::routeIs('videos') ? 'active' : '' }}">
                         VIDEOS
