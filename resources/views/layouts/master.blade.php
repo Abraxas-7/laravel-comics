@@ -9,8 +9,10 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
     {{-- link css --}}
+    @vite(['./resources/css/app.css'])
     @vite(['./resources/css/header.css'])
     @vite(['./resources/css/jumbotron.css'])
+    @vite(['./resources/css/footer.css'])
 </head>
 
 <body>

@@ -1,0 +1,35 @@
+.top-banner {
+    height: 15vh;
+    background-color: #0282f9;
+}
+
+.top-banner a {
+    color: white;
+}
+
+.top-banner img {
+    height: 40%;
+}
+
+.top-banner .col:nth-child(5) img {
+    height: 30%;
+}
+
+.banner-content {
+    height: 15vh;
+}
+
+.banner-content div {
+    padding: 0 0 0 12px;
+}
+
+.middle-banner {
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom-banner {
+    height: 12vh;
+    background-color: #303030;
+}
