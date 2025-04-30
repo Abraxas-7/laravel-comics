@@ -1,3 +1,4 @@
-<div>
-    <!-- The only way to do great work is to love what you do. - Steve Jobs -->
+<div class="image-wrapper">
+    <img src="{{ $thumb }}" class="comic-image" alt="{{ $title }}">
+    <h6 class="comic-title">{{ $title }}</h6>
 </div>

@@ -1,0 +1,21 @@
+.image-wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.comic-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+}
+
+.comic-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    margin-top: 8px;
+}

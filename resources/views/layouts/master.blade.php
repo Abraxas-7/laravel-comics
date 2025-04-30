@@ -7,12 +7,6 @@
     <title>@yield('title')</title>
 
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-
-    {{-- link css --}}
-    @vite(['./resources/css/app.css'])
-    @vite(['./resources/css/header.css'])
-    @vite(['./resources/css/jumbotron.css'])
-    @vite(['./resources/css/footer.css'])
 </head>
 
 <body>
@@ -22,7 +16,9 @@
     </x-jumbotron>
 
     {{-- contenuto della pagina --}}
-    @yield('contenuto')
+    <main>
+        @yield('contenuto')
+    </main>
 
     @include('partials.footer')
 </body>

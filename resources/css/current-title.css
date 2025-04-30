@@ -1,0 +1,13 @@
+.current-title {
+    display: inline-block;
+    background-color: #0c7cec;
+    color: #fff;
+
+    padding: 8px 28px 0px 28px;
+
+    transform: translate(0, -50%);
+}
+
+.current-title h1 {
+    font-weight: 800;
+}
